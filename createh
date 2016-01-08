@@ -1,0 +1,20 @@
+#! /bin/bash
+# This script will populate a folder with a default structure and files
+# This script creates a css folder and an img folder. 
+# It copies an index.html with basic structure, a blank styles.css, and a Meyer reset.css to the appropriate folders
+# style.css is moved to the css folder
+
+# Create an empty images directory
+mkdir img &&
+
+# Create a css directory
+# Copy the default style sheet and move to the css directory
+# Copy the default css reset and move to the css directory
+mkdir css &&
+cp ~/scripts/createh/defaults/styles.css ./css &&
+cp ~/scripts/createh/defaults/reset.css ./css &&
+
+# Copy the default index.html
+cp ~/scripts/createh/defaults/index.html .
+
+# End of script
