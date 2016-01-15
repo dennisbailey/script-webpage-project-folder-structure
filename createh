@@ -13,6 +13,12 @@ mkdir img &&
 mkdir css &&
 cp ~/scripts/createh/defaults/styles.css ./css &&
 cp ~/scripts/createh/defaults/reset.css ./css &&
+cp ~/scripts/createh/defaults/normalize.css ./css &&
+
+# Create a css directory
+# Create an empty app.js
+mkdir js &&
+touch app.js &&
 
 # Copy the default index.html
 cp ~/scripts/createh/defaults/index.html .
