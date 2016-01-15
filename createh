@@ -16,9 +16,9 @@ cp ~/scripts/createh/defaults/reset.css ./css &&
 cp ~/scripts/createh/defaults/normalize.css ./css &&
 
 # Create a css directory
-# Create an empty app.js
+# Copy over main.js
 mkdir js &&
-touch app.js &&
+cp ~/scripts/createh/defaults/main.js &&
 
 # Copy the default index.html
 cp ~/scripts/createh/defaults/index.html .
